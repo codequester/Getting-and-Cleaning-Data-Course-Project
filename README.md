@@ -24,12 +24,12 @@ You should create one R script called run_analysis.R that does the following.
 1. Create a working copy in the local directory by cloning this repository
 2. From the root of the working directiry execute the 'run_analysis.R' script
 3. Following are performed when the script is executed
-..1. The script downloads the Dataset.zip file from the website mentioned in the instruction
-..2. Extracts / unzips the contents to a directory -'UCI HAR Dataset' 
-..3. Process various files and prints informational status messages in order to perform the steps given in the instruction.
-..4. Produces 2 text files
-...* activity_mean_sd_data.txt -> This file contains data as specified by step 4 of the instruction
-...* tiny_data.txt -> This file is the final output that contains the tidy data as specifed by step 5 of the instruction
+  1. The script downloads the Dataset.zip file from the website mentioned in the instruction
+  2. Extracts / unzips the contents to a directory -'UCI HAR Dataset' 
+  3. Process various files and prints informational status messages in order to perform the steps given in the instruction.
+  4. Produces 2 text files
+    1. activity_mean_sd_data.txt -> This file contains data as specified by step 4 of the instruction
+    2. tiny_data.txt -> This file is the final output that contains the tidy data as specifed by step 5 of the instruction
 
 Please refer the code book for detail explaination of the script.
 
