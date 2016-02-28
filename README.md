@@ -31,7 +31,7 @@ You should create one R script called run_analysis.R that does the following.
     1. activity_mean_sd_data.txt -> This file contains data as specified by step 4 of the instruction
     2. tiny_data.txt -> This file is the final output that contains the tidy data as specifed by step 5 of the instruction
 
-Please refer the code book for detail explaination of the script.
+Please refer the code book for detailed explaination of the script.
 
 
 
