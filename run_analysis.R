@@ -62,7 +62,7 @@ colnames(mergedVariablesDt) <- gsub("BodyBody","Body",colnames(mergedVariablesDt
 message("Appropriately label the data set with descriptive variable names - DONE.")
 
 ## Write the data back to a files 
-write.table(mergedVariablesDt, "activity_mean_sd_data.txt", sep="\t")
+write.table(mergedVariablesDt, "activity_mean_sd_data.txt", sep="\t", row.names = FALSE)
 message("Creating 'activity_mean_sd_data.txt' - DONE.")
 
 ## Item 5 From Instruction - create a second, independent tidy data set with the average of each variable for each activity and each subject.
@@ -76,5 +76,5 @@ names(tidyVariablesDt)[names(tidyVariablesDt) == 'Group.1'] <- 'subjectId'
 names(tidyVariablesDt)[names(tidyVariablesDt) == 'Group.2'] <- 'activityName'
 
 ## Write the data back to a files 
-write.table(tidyVariablesDt, "tidy_data.txt", sep="\t")
+write.table(tidyVariablesDt, "tidy_data.txt", sep="\t", row.names = FALSE)
 message("Creating 'tidy_data.txt' - DONE.")
